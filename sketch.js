@@ -67,7 +67,7 @@ function draw() {
   Engine.update(engine);
   strokeWeight(2);
   textSize(35);
-    fill("white");
+    fill("grey");
     text("Score: " + score,width-790,35);
  ground.display();
  ground2.display();
